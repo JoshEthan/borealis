@@ -1,0 +1,15 @@
+[package]
+name = "borealis"
+version = "0.1.0"
+authors = ["Joshua Rolph <joshua.rolph657@gmail.com"]
+edition = "2021"
+
+[dependencies]
+# Added for wgpu
+env_logger = "*"
+legion = "*"
+nalgebra = "*"
+# Added for wgpu
+pollster = "*"
+wgpu = "*"
+winit = "*"
